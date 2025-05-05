@@ -40,7 +40,7 @@ importers:
         version: 29.3.2(@babel/core@7.24.7)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.24.7))(jest@29.7.0(@types/node@20.14.2))(typescript@5.8.3)
       typedoc:
         specifier: ^0.28.2
-        version: 0.28.3(typescript@5.8.3)
+        version: 0.28.4(typescript@5.8.3)
       typescript:
         specifier: ^5.4.5
         version: 5.8.3
@@ -1776,8 +1776,8 @@ packages:
     resolution: {integrity: sha512-ABHZ2/tS2JkvH1PEjxFDTUWC8dB5OsIGZP4IFLhR293GqT5Y5qB1WwL2kMPYhQW9DVgVD8Hd7I8gjwPIf5GFkw==}
     engines: {node: '>=16'}
 
-  typedoc@0.28.3:
-    resolution: {integrity: sha512-5svOCTfXvVSh6zbZKSQluZhR8yN2tKpTeHZxlmWpE6N5vc3R8k/jhg9nnD6n5tN9/ObuQTojkONrOxFdUFUG9w==}
+  typedoc@0.28.4:
+    resolution: {integrity: sha512-xKvKpIywE1rnqqLgjkoq0F3wOqYaKO9nV6YkkSat6IxOWacUCc/7Es0hR3OPmkIqkPoEn7U3x+sYdG72rstZQA==}
     engines: {node: '>= 18', pnpm: '>= 10'}
     hasBin: true
     peerDependencies:
@@ -3886,7 +3886,7 @@ snapshots:
 
   type-fest@4.40.0: {}
 
-  typedoc@0.28.3(typescript@5.8.3):
+  typedoc@0.28.4(typescript@5.8.3):
     dependencies:
       '@gerrit0/mini-shiki': 3.3.0
       lunr: 2.3.9
